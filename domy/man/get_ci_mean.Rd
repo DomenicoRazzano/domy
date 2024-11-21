@@ -8,7 +8,6 @@ get_ci_mean(
   confidence = 0.95,
   sample_data,
   pop_sd = NULL,
-  pop_mean = NULL,
   norm_dist = FALSE
 )
 }
@@ -24,8 +23,8 @@ get_ci_mean(
 \item{norm_dist}{Logical, whether to assume normal distribution (default FALSE).}
 }
 \value{
-A tibble with mean, lower and upper bounds, and margin of error.
+A data frame with mean, lower and upper bounds, and margin of error.
 }
 \description{
-This function computes confidence intervals for the mean of a sample, optionally using the population standard deviation.
+This function computes confidence intervals for the mean of a sample, depending on sample size and informations (if there are) about the population.
 }
