@@ -19,12 +19,10 @@ get_ci_mean(
 
 \item{pop_sd}{Population standard deviation (default NULL).}
 
-\item{pop_mean}{Population mean (not used currently, default NULL).}
-
 \item{norm_dist}{Logical, whether to assume normal distribution (default FALSE).}
 }
 \value{
-A tibble with mean, lower and upper bounds, and margin of error.
+A data frame with sample mean, confidence bounds and margin of error.
 }
 \description{
 This function computes confidence intervals for the mean of a sample, optionally using the population standard deviation.

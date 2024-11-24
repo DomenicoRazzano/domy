@@ -1,0 +1,16 @@
+Package: domy
+Type: Package
+Title: Domy's Package
+Version: 0.0.0.9000
+Authors@R: person("Domenico", "Razzano", email = "razzanodomenico17@gmail.com", role = c("aut", "cre"))
+Maintainer: "Domenico Razzano <razzanodomenico17@gmail.com>"
+Description: The package contains functions I use. The functions are about confidence intervals.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  ggplot2,
+  ggwordcloud,
+  dplyr,
+  tidytext
